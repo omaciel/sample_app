@@ -20,7 +20,6 @@ gem 'jquery-rails'
 
 group :development do
     gem 'rspec-rails'
-    gem 'annotate'
     gem 'webrat'
 end
 
