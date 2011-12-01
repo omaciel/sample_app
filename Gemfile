@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.0'
+gem 'rails', '3.1.3'
 
 
 gem 'sqlite3'
@@ -19,6 +19,7 @@ gem 'therubyracer'
 gem 'jquery-rails'
 
 group :development do
+    gem 'annotate', :git => 'git://github.com/ctran/annotate_models.git'
     gem 'rspec-rails'
     gem 'webrat'
 end
